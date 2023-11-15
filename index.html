@@ -1,15 +1,22 @@
-<!DOCTYPE html>
-<html lang="en"> nbnbjbjbjb
+<!-- form.php 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Task Scheduler</title>
+   
+<link rel="stylesheet" href="styles.css"> -->
+
+    
+    
 </head>
-<body>
-    <h1>My first ever website 
+<h2>Task Entry Form </h2>
+<form action="index.php" method="post">
+    <label for="task_name">Task Name:</label>
+    <input type="text" name="task_name" required><br>
+    
+    <label for="task_description">Task Description:</label>
+    <textarea name="task_description" class="custom-textarea" required></textarea ><br>
 
-    </h1>
-
-    <p>vgvgvfgghghgh</p>
-</body>
-</html>
+    <label for="due_date">Due Date:</label>
+    <input type="date" name="due_date" r><br>
+<div class="button">
+    <input type="submit" value="Add Task"></div>
+</form>
